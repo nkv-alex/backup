@@ -13,7 +13,7 @@ ORIGEN = [
     "/usr/local/bin",
     "/bin/*"
 ]
-DESTINO = "/etc/backup"
+DESTINO = "/root/backup"
 META_FILE = os.path.join(DESTINO, "metadata.pkl")
 FULL_DAY = 1       # día del mes para backup completo
 INC_DAYS = 3       # cada cuantos días se hace incremental
